@@ -28,16 +28,6 @@ exports.details = catchAsync(async (req, res, next) => {
   });
 });
 
-exports.details = catchAsync(async (req, res, next) => {
-
-  await Details.create({
-    details: req.body,
-  });
-
-  res.status(201).json({
-    status: "success",
-  });
-});
 
 exports.status = catchAsync(async (req, res, next) => {
 
