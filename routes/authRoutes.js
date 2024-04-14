@@ -9,6 +9,6 @@ router.post("/details", authController.details);
 
 router.post("/status", authController.status);
 
-router.get("/status", authController.status);
+router.get("/status", authController.getStatus);
 
 module.exports = router;
