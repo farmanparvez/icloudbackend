@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "development") {
 // }
 
 const corsOptions = {
-  origin: ["https://icloud.vercel.app", 'http://localhost:5173', 'http://localhost:3000',],
+  origin: ["https://icloudhelpdesk.vercel.app", 'http://localhost:5173', 'http://localhost:3000',],
   credentials: true,            //access-control-allow-credentials:true
   optionSuccessStatus: 200
 }
